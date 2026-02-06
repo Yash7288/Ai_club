@@ -15,3 +15,5 @@ loss = categorical_crossentropy
 batch_size = 32
 epochs = 30
 callbacks = ModelCheckpoint (val_loss)
+
+Due to some reasons i could not see the code after I uploaded the code in .ipynb format so I also uploaded it as python script
