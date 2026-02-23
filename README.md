@@ -1,19 +1,30 @@
-# Ai_club
-Yash Maheshwari
-2025AAPS0525P
-
-The following are the details of the task I did for AI club recruitments round 2.
-MODEL PERFORMANCE(after 30 epochs): accuracy: 0.5553 - loss: 1.1270 - val_accuracy: 0.5718 - val_loss: 1.3181
-Macro F1-score: 0.5514139524140744
-dataset = RAVDESS
-sampling_rate = 22050
-train / val / test = 80 / 10 / 10
-random_state = 42
-stratified split = True
-optimizer = Adam
-loss = categorical_crossentropy
-batch_size = 32
-epochs = 30
-callbacks = ModelCheckpoint (val_loss)
-
-Due to some reasons i could not see the code after I uploaded the code in .ipynb format so I also uploaded it as python script
+This repo contains All the projects I made while learning Aiml
+AI Club Task – Deep Learning Model Project
+Overview
+This project was developed as part of an AI Club task focused on building, training, and deploying a deep learning model using TensorFlow/Keras.
+The workflow covers:
+Data preprocessing
+Model architecture design
+Training and validation
+Saving best model weights
+Final model export
+Inference using a prediction script
+📂 Project Structure
+AI-club task/
+│
+├── Ai_club.ipynb          # Initial experimentation notebook
+├── task.ipynb             # Final training notebook
+├── final_task.py          # Clean training script version
+├── predict.py             # Inference / prediction script
+│
+├── model.keras            # Saved base model
+├── final_model.keras      # Final trained model
+├── best.weights.h5        # Best model weights (checkpoint)
+│
+└── README.md              # Project documentation
+⚙️ Technologies Used
+Python 3.13.7
+TensorFlow / Keras
+NumPy
+Matplotlib
+Jupyter Notebook
